@@ -6,13 +6,17 @@ body {
   background-color: #FFFFFF;
   height: 70px;
   margin-top: 0;
+  padding: 0;
 }
 .footer {
   background-color: #FFFFFF;
   height: 32px;
   margin-bottom: 0;
+  padding: 0;
   text-align: center;
 }
 .center {
   text-align: center;
+  background-color: #E0E0E0;
+  padding: 1em;
 }
