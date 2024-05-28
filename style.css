@@ -13,6 +13,9 @@ body {
   margin-top: 0;
   padding: 0;
 }
+.header h1 {
+  vertical-align: 30px;
+}
 .footer {
   background-color: #FFFFFF;
   height: 32px;
