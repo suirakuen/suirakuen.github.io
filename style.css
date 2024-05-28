@@ -1,13 +1,13 @@
 body {
   background-color: #FFFF00;
 }
-header {
+.header {
   background-color: #FFFFFF;
 　a: #000000;
 　a:active: #0A0A0A;
 　a:visited: #000000;
 }
-footer {
+.footer {
   background-color: #FFFFFF;
 }
 .center {
