@@ -9,16 +9,17 @@ body {
 }
 .header {
   background-color: #FFFFFF;
-  height: 70px;
+  height: 66px;
   margin-top: 0;
   padding: 0;
+  display:flex;
 }
 .header h1 {
-  vertical-align: 30px;
+  align-content:center;
 }
 .footer {
   background-color: #FFFFFF;
-  height: 32px;
+  height: 24px;
   margin-bottom: 0;
   padding: 0;
   text-align: center;
