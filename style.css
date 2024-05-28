@@ -1,6 +1,7 @@
 body {
-  background-color: #FFFF00;
+  background-color: #FFF900;
   margin-top: 0;
+  padding: 0;
 }
 .header {
   background-color: #FFFFFF;
@@ -17,6 +18,6 @@ body {
 }
 .center {
   text-align: center;
-  background-color: #E0E0E0;
+  background-color: #F0F0F0;
   padding: 1em;
 }
