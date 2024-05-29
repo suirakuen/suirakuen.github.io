@@ -26,24 +26,25 @@ body {
   text-align: center;
 }
 .left {
+  top: 66px;
   background-color: #F0F0F0;
   text-align: center;
-  width: 30%;
+  width: 25%;
   height: 2000px;
 }
 .center {
+  top: 66px;
   text-align: center;
   background-color: #FFFF00;
-  width: 35%;
+  width: 50%;
   height: 2000px;
 }
 .right {
-  text-align: center;
+  top: 66px;
+  text-align: left;
   background-color: #000000;
   color: #FF0000;
   position: fixed;
-  top: 66px;
-  right: 0;
-  width: 35%;
+  width: 25%;
   height: 2000px;
 }
