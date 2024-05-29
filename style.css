@@ -25,22 +25,23 @@ body {
   padding: 0;
   text-align: center;
 }
-.left {
+.main {
+  display:flex;
   top: 66px;
+}
+.left {
   background-color: #F0F0F0;
   text-align: center;
   width: 25%;
   height: 2000px;
 }
 .center {
-  top: 66px;
   text-align: center;
   background-color: #FFFF00;
   width: 50%;
   height: 2000px;
 }
 .right {
-  top: 66px;
   text-align: left;
   background-color: #000000;
   color: #FF0000;
