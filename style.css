@@ -27,24 +27,24 @@ body {
 }
 .main {
   display:flex;
-  top: 66px;
+  margin-top: 66px;
 }
 .left {
   background-color: #F0F0F0;
   text-align: center;
-  width: 25%;
-  height: 2000px;
+  width: 20%;
+  height: 2400px;
 }
 .center {
   text-align: center;
   background-color: #FFFF00;
-  width: 50%;
-  height: 2000px;
+  width: 60%;
+  height: 2400px;
 }
 .right {
   text-align: left;
   background-color: #000000;
   color: #FF0000;
-  width: 25%;
-  height: 2000px;
+  width: 20%;
+  height: 2400px;
 }
