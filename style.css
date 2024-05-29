@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: #FFF900;
+  background-color: #FFFFFF;
   margin-top: 0;
   padding: 0;
 }
@@ -24,8 +24,24 @@ body {
   padding: 0;
   text-align: center;
 }
+.left {
+  background-color: #F0F0F0;
+  text-align: center;
+  width: 30%;
+  height: 300%;
+}
 .center {
   text-align: center;
-  background-color: #F0F0F0;
-  padding: 1em;
+  background-color: #FFFF00;
+  width: 35%;
+  height: 300%;
+}
+.right {
+  background-color: #000000;
+  color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 35%;
+  height: 300%;
 }
