@@ -27,21 +27,23 @@ body {
 }
 .main {
   display:flex;
-  margin-top: 66px;
 }
 .left {
+  margin-top: 66px;
   background-color: #F0F0F0;
   text-align: center;
   width: 20%;
   height: 2400px;
 }
 .center {
+  margin-top: 66px;
   text-align: center;
   background-color: #FFFF00;
   width: 60%;
   height: 2400px;
 }
 .right {
+  margin-top: 66px;
   text-align: left;
   background-color: #000000;
   color: #FF0000;
