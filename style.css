@@ -10,15 +10,13 @@ body {
   height: 2000px;
 }
 .header {
+  position: fixed;
   background-color: #FFFFFF;
   width: 100%;
   height: 66px;
   margin-top: 0;
   padding: 0;
   display:flex;
-}
-.header h1 {
-  align-content:center;
 }
 .footer {
   background-color: #FFFFFF;
