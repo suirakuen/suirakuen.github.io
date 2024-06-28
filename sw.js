@@ -1,7 +1,7 @@
 var CACHE_NAME = 'pwa-caches';
 var urlsToCache = [
     'suirakuen.github.io/index.html',
-    'suirakuen.github.io/nicolike.html',
+    'suirakuen.github.io/Games/nicolike/index.html',
 ];
 
 self.addEventListener('install', function(event) {
