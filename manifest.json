@@ -3,7 +3,7 @@
     "name": "東方彗楽園",
     "display": "standalone",
     "start_url": "index.html",
-    "background_color": "#FFFF00",
+    "background_color": "#FFFFFF",
     "theme_color": "#FFFF00",
     "icons": [
         {
