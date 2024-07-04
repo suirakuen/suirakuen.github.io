@@ -20,7 +20,70 @@ body {
   margin-top: 0;
   padding: 0;
   display:flex;
+  z-index:1;
 }
+/*ハンバーガーメニューここから*/
+#menu1 {
+  align-content:center;
+  width:10%;
+}
+.menu-button {
+  position: fixed;
+  top:3px;
+  right:3px;
+  display: flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  background-color: #FFFFFF;
+}
+.menu-button span,
+.menu-button span:before,
+.menu-button span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background-color: #000000;
+  position: absolute;
+}
+.menu-button span:before {
+  bottom: 8px;
+}
+.menu-button span:after {
+  top: 8px;
+}
+#menu1:checked ~ .menu-button span {
+  background-color: rgba(255, 255, 255, 0);
+}
+#menu1:checked ~ .menu-button span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+#menu1:checked ~ .menu-button span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+#menu1 {
+  display: none;
+}
+.menu-content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 100%;
+  z-index: 2;
+  background-color: #4c97ff;
+}
+#menu1:checked ~ .menu-content {
+  left:0px;
+}
+/*ハンバーガーメニューここまで*/
 .footer {
   background-color: #FFFFFF;
   height: 24px;
@@ -32,32 +95,43 @@ body {
   left:0;
   margin-top: 66px;
   display:flex;
+  height:10000px;
 }
 .left {
   background-color: #F0F0F0;
-  text-align: center;
   width: 20%;
-  height: 2400px;
+  height: 100%;
 }
 .center {
   text-align: center;
   background-color: #FFFF00;
   width: 60%;
-  height: 2400px;
+  height: 100%;
 }
 .right {
   width: 20%;
-  height: 2400px;
+  height: 100%;
   background-color:#000000;
+  color:#ff0000;
+}
+.right p {
+  text-align:center;
 }
 .sidebar {
   background-color: #A2FFA2;
   color:#50a050;
-  height:40px;
+  height:42px;
+  text-align: center;
 }
 .games {
-  padding:10%;
-  text-align: center;
-  background-color: #000000;
-  color: #FF0000;
+  padding-top:3%;
+  padding-bottom:3%;
+  padding-left:20%;
+  padding-right:20%;
+  text-align:center;
+  color: #A2FFA2;
+}
+.games a img {
+  width:100%;
+  aspect-ratio: 3/1;
 }
