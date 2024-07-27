@@ -37,7 +37,7 @@
 - scratch `#4C97FF`
 - turbowarp `#FF4C4C`
 - cat `#FFAB19`
-- nobamen `#A2FFA2`  
+- nobaman `#A2FFA2`  
 また、カラーコードでも指定が可能です。
 ### /custom (STRING-1) (STRING-2) (STRING-3~)
 生成されるコメントの種類を増やせます。  
