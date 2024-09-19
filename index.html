@@ -1,69 +1,84 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>東方彗楽園テストプレイ</title>
+  <title>東方彗楽園サイト跡地</title>
   <meta charset="UTF-8">
-  <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="apple_icon.png">
-  <link rel="icon" href="app_icon.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.png">
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      font-family: 'HGP創英角ﾎﾟｯﾌﾟ体',system-ui;
+    }
+    header {
+      background-color: #ff8000d0;
+      width: 100%;
+      height: 60px;
+      top: 0px;
+      left: 0px;
+      position: fixed;
+    }
+    header a {
+      text-decoration: none;
+      color: black;
+      font-size: 50px;
+    }
+    #space {
+      width: 100%;
+      height: 60px;
+      top: 0px;
+      left: 0px;
+    }
+    footer {
+      width: 100%;
+      height: 24px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      align-content: center;
+      padding-top: 1px;
+    }
+    #test {
+      color: red;
+      font-size: 80px;
+    }
+    #sss {
+      background-color: #a2ffa2;
+      z-index: -1000;
+      position: fixed;
+      top: 45%;
+      left: 45%;
+      width: 200px;
+      height: 200px;
+    }
+  </style>
 </head>
 <body>
-  <header class="header">
-    <div style="display:flex; width:90%;">
-      <img src="app_icon.png" width="64" height="64">
-      <h1 style="align-content:center;">
-        <a href="https://suirakuen.github.io" style="text-decoration:none; color:black;">東方彗楽園</a>
-      </h1>
-    </div>
-    <div class="menu">
-      <input type="checkbox" id="menu1">
-      <label for="menu1" class="menu-button"><span></span></label>
-      <!--ハンバーガーメニューの内容-->
-      <div class="menu-content">
-        <h1 style="color:red;">メニューのサンプル</h1>
-        <p>項目1</p>
-        <p>項目2</p>
-      </div>
-      <!--ハンバーガーメニューここまで-->
-    </div>
+  <header>
+    <a href="https://suirakuen.github.io">ここにロゴ</a><font size="1">東方彗楽園サイト</font>
   </header>
-  <div class ="main">
-    <div class="left">
-      <div class="sidebar">
-        <h1>スマホゲーム</h1>
-      </div>
-      <p>特になし</p>
-    </div>
-    <div class="center">
-    <h1>東方彗楽園テストプレイ</h1>
-    <p>※Windowsの方は<a href="https://github.com/suirakuen/suirakuen.github.io/tree/main/version">コチラ</a>からダウンロードしてください</p>
-    <iframe style="width:95%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/KdD0QmCrmg8" title="カビゴンである必要性がない" frameborder="0" allowfullscreen></iframe>
-    <br>
-    <iframe style="width:95%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/Moc_7zAEGlQ" title="【ブルアカ】持ってってー" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="right">
-      <div class="sidebar">
-        <h1>PCゲーム</h1>
-      </div>
-      <div class="games">
-        <p><a href="Games/nicolike/index.html"><img src="Games/nicolike/banner.png" alt="NICOLIKE"></a></p>
-      </div>
-      <div class="games">
-        <a href="Games/suika_modoki/index.html"><img src="Games/suika_modoki/banner.png" alt="ヌイカゲーム"></a>
-      </div>
-      <br><p>～～～～～</p><br>
-      <p>美味しいアイスクリーム(EPIC)</p>
-      <p>直撃！隣の団子さん！</p>
-      <p>サラダ油マウンテン BGM</p>
-      <p><a href="https://www.nicovideo.jp" style="text-decoration:none; color:red;" target="_blank">ゼニゼニ動画(GINZA)</a></p>
-      <p>じゃがりんご みかん味 L</p>
-      <p>ホシノカービィ ユメの泉の物語</p>
-      <p>紙っぽいな - キノピオピー</p>
-      <p><a href="https://apps.apple.com/jp/app/%E9%AD%94%E5%89%A3%E4%BC%9D%E8%AA%AC/id1499305228" style="text-decoration:none; color:red;" target="_blank">マママ魔剣伝説</a></p>
-      
-    </div>
-  </div>
-  <footer class="footer"><font size="2">2024 Seiendan</font></footer>
+  <div id="space"></div>
+  <div id="sss"></div>
+  <div id="test"></div>
+  <script>
+    for (var i = 0; i < 200; i++){
+      document.getElementById('test').innerHTML += "これはテストのメッセージです。　";
+    }
+    document.querySelector("#sss").animate(
+      {
+        borderRadius: [
+          "50% 50% 50% 70%/50% 50% 70% 60%",
+          "80% 30% 50% 50%/50%",
+          "40% 40% 50% 40%/30% 50% 40% 80%"
+        ]
+      },
+      {
+        iterations: Infinity,
+        direction: "alternate",
+        duration: 6000
+      }
+    );
+  </script>
+  <footer>2024 Made in Japan</footer>
 </body>
 </html>
